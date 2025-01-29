@@ -1,0 +1,21 @@
+{
+    "name": "oidc",
+    "namespace": "system",
+    "spec": {
+        "provider_type": 0,
+        "oidc_v10_spec_type": {
+            "display_name": "ADFS IDAnywhere",
+            "client_id": "enter-your-client-id",
+            "client_secret": "set-your-secret-or-dummy-secret-if-pkce",
+            "default_scopes": "openid profile email add-additional-scopes",
+            "authorization_url": "https://{{edit-your-idp-domain}}/adfs/oauth2/authorize",
+            "token_url": "https://{{edit-your-idp-domain}}/adfs/oauth2/token",
+            "logout_url": "https://{{edit-your-idp-domain}}/adfs/oauth2/logout",
+            "backchannel_logout": true,
+            "disable_user_info": true,
+            "issuer": "https://{{edit-your-idp-domain}}/adfs",
+            "jwks_uri": "https://{{edit-your-idp-domain}}/adfs/discovery/keys",
+            "validate_signatures": true
+        }
+    }
+}
