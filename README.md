@@ -1,5 +1,5 @@
 # f5xc-sso-cfg
-SSO Configuration via F5 Distributed Cloud's Public API.
+SSO Configuration via F5 Distributed Cloud's [Public API](https://docs.cloud.f5.com/docs-v2/api/oidc-provider).
 
 ## Step 1. Prerequisites
 - **Clone** this repo.
@@ -51,3 +51,7 @@ SSO Configuration via F5 Distributed Cloud's Public API.
   ```bash
   bash xc-sso-delete.sh
   ```
+
+## References
+- [F5 Distributed Cloud: Services API for SSO/OIDC Provider](https://docs.cloud.f5.com/docs-v2/api/oidc-provider)
+- [F5 Distributed Cloud: Generate API Tokens.](https://docs.cloud.f5.com/docs-v2/administration/how-tos/user-mgmt/Credentials#generate-api-tokens-for-my-credentials)
