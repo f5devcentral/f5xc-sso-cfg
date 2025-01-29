@@ -1,0 +1,13 @@
+{
+    "name": "oidc",
+    "namespace": "system",
+    "spec": {
+        "provider_type": 0,
+        "oidc_v10_spec_type": {
+            "redirect_uri": "",
+            "client_id": "",
+            "client_secret": "",
+            "default_scopes": "openid profile email"
+        }
+    }
+}
