@@ -16,6 +16,11 @@ function disp_error_and_exit() {
   exit 1
 }
 
+function disp_warn() {
+  local warn_message="$1"
+  printf "${MAGENTA}+ $warn_message ${NC}\n\n"
+}
+
 function disp_start_step() {
   local message="$1"
   printf "${CYAN}+ $message ${NC}\n"
@@ -80,7 +85,7 @@ function load_and_validate_env_variables() {
   fi
 
   if [ -z "$XC_TENANT_NAME" ]; then
-    disp_error_and_exit "The XC_TENANT_NAME is empty or not set!"
+    disp_warn "The XC_TENANT_NAME is empty or not set!"
   else
     echo "  | XC_TENANT_NAME          : $XC_TENANT_NAME"
   fi
