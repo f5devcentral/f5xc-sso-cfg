@@ -15,7 +15,7 @@ load_and_validate_env_variables
 
 
 # ----------------------------------------------------------------------------- #
-# 3. Delete XC SSO Configuration                                               #
+# 3. Delete XC SSO Configuration                                                #
 # ----------------------------------------------------------------------------- #
 get_sso_config_req "$IDP_SSO_ALIAS"
 ret=$?

@@ -44,6 +44,7 @@ for i in {1..5}; do
         disp_result "SSO has been configured!"
         exit 0
     fi
+    sleep 2
 done
 disp_error_and_exit "SSO config has not been created yet. Try GET API later to check if it is created!"
 
