@@ -14,6 +14,7 @@ SSO Configuration via F5 Distributed Cloud's [Public API](https://docs.cloud.f5.
   - https://login-staging.volterra.us/auth/realms/<tenant-ID>/broker/oidc/endpoint
   - https://login.ves.volterra.io/auth/realms/<tenant-ID>/broker/oidc/endpoint
   ```  
+  > Note: tenant-ID can be found at `Administration > Tenant Settings > Tenant Overview > Tenant Information` via XC console.
 
 ## Step 2. Set Environment Variables
 - Open [.env](.env) file.
