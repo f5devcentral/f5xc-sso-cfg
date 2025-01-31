@@ -8,7 +8,12 @@ SSO Configuration via F5 Distributed Cloud's [Public API](https://docs.cloud.f5.
   ```
 - **Sign-in** as a tenant owner.
 - [Generate API Tokens for My Credentials.](https://docs.cloud.f5.com/docs-v2/administration/how-tos/user-mgmt/Credentials#generate-api-tokens-for-my-credentials)
-
+- Config redirect URIs in your IdP as the following examples:
+  ```
+  - https://login-demo1.volterra.us/auth/realms/<tenant-ID>/broker/oidc/endpoint
+  - https://login-staging.volterra.us/auth/realms/<tenant-ID>/broker/oidc/endpoint
+  - https://login.ves.volterra.io/auth/realms/<tenant-ID>/broker/oidc/endpoint
+  ```  
 
 ## Step 2. Set Environment Variables
 - Open [.env](.env) file.
