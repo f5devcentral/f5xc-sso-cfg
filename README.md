@@ -41,7 +41,7 @@ SSO Configuration via F5 Distributed Cloud's [Public API](https://docs.cloud.f5.
 
 - **Update** a SSO config
   ```bash
-  bash xc-sso-update.sh.sh
+  bash xc-sso-update.sh
   ```
   > Note: This can be used for the following examples of scenarios when:
   > - Display name needs to be updated.
